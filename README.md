@@ -34,15 +34,25 @@
         </section>    
     </section>
     <section> 
-      <h2> Section 3: How to write a log-in form in html </h2>
+      <h2> Section 3: How to use different tags in html </h2>
+      <p> I think here I will quickly use different tags to see how they look like once compiled. </p>
+         <section> 
+          <h2> Subsection 3.1 : How to use the tag: button </h2>
+          <p> Now I will make a button </p>
+          <button id="my_first_button">
+          </button>
+         </section> 
     </section>
   </body>
+  
   <aside>
     <p>Where does the aside paragraph end up at?</p>
   </aside>
+  
   <footer>  <hr> This is my footer. Will it be at the end of the webpage?
     <nav>
-      <p> How about I add a navigation part to my footer? </p>
+      <p> How about I add a navigation part inside my footer? </p>
     </nav>
   </footer>
+  
 </html>
