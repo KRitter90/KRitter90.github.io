@@ -6,7 +6,7 @@
     <title> This is the debugging testpage </title>
   </head>
   <body>
-    <p>Here I will try to make my first log in form using html coding. </p>
+    <h1> First steps in html5 </h1>
     <section>
       <h2> Section 1 </h2>
       <ol>
@@ -76,11 +76,11 @@
    <section>
      <h2> The final step to make users sign-in or register </h2>
      <p> Alright. So here is now the few steps on how to build the log-in form how I want it to be on the web-page. <br></p>
-     <h3> Step 1: Sign-in form </h3>
+     <h3> Sign-in form </h3>
      <!-- add here the form -->
       <form action="/action_page.php" method="get">
         <label for="user_or_e-mail">user name | e-mail:</label><br>
-        <input type="text" id="user_or_e-mail" name="user" value="enter user name or e-mail..."><br><br>
+        <input type="text" id="user_or_e-mail" name="user" value="username or Email..."><br><br>
         <label for="pw">Password:</label><br>
         <input type="password" id="pw" name="pw" value="enter your password"><br><br>
         <input type="submit" value="Submit"><br>
@@ -98,9 +98,9 @@
         Enter your address here:<br>
           <!-- Street -->
           <input type="text" id="street_1" name="street_1" value="street name" required><br>
-          <input type="text" id="street_2" name="street_2" value="house number" {1-3}[0-9] required><br>
+          <input type="number" id="street_2" name="street_2" value="999" required><br>
           <input type="text" id="street_3" name="street_3" value="..."><br><br>
-          <input type="text" id="street_4" name="street_4" value="post code" {4-5}[0-9] required><br><br>
+          <input type="number" id="street_4" name="street_4" value="9999" required><br><br>
           <!-- City -->
           <label for="city">Choose your City from the list:</label><br>
           <input list="cities" name="city" id="city" required>
@@ -119,7 +119,7 @@
           <label for="country">Country:</label><br>
           <input type="text" id="country" name="country" value="Denmark"><br><br>
         <!-- Contact Details -->  
-         <label for="e-mail">Enter your Email:</label><br>
+         <label for="email">Enter your Email:</label><br>
          <input type="email" id="email" name="email" value="info@ritterplants.com"><br><br>
         <!-- Birthday -->
          <label for="birthday">Birthday:</label>
