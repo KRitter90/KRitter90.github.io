@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> code-html5 </title>
+</head>
+
+<header>
+  <h1> This is the html5 course </h1>
+</header>
+ <nav>
+  <a href="/html/">one</a> |
+  <a href="/css/">two</a> |
+  <a href="/js/">three</a> |
+  <a href="/python/">and more</a>
+</nav> 
+<h2> Favorite Foods</h2>
+
+</html>
