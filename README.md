@@ -14,9 +14,21 @@
         <li> coding an ordered list could be helpful</li>
         <li> be aware that an unordered list also exists </li>
       </ol>
-      <h4> Inside the section, I should write a header: h4 </h4>
-      <h6> Inside the section, I should write a header: h6 </h6>
+    </section>
+    <section>
+      <h2> Inside the second section, I should write again a header: h2 </h2>
+      <p> Here, I will also add a paragraph. So why am I doing all of this?
+        There are so many ways to learn new things for free.
+        I think that is super fun.
+      <br> When breaking a line, no ending tag is needed. It works just like this. 
+        So Let's say I want to write even more and make the reader put some extra focus on the next line. What will happen if I add a "hr"?
+      <hr> The hr also does not require any ending tag. So what is the difference between "br" and "hr"? 
+      So maybe, let's just end this paragraph for now.</p>
+      <h4> And how does it look like now, if I write again a header: h4?</h4>
     </section>
   </body>
+  <aside>
+    <p>Where does the aside paragraph end up at?</p>
+  </aside>
 </html>
 
