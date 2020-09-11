@@ -45,19 +45,33 @@
             <button id="my_second_button" width="6px" height="4px" name="button_no_two" value="click2">click me 2!
             </button></p>
           </section> 
+      <!-- This section is about the meter-tag-->
           <section> 
             <h4> Subsection 3.2 : How to use the tag: meter </h4>
             <p> Now I will make a meter </p>
             <label for="my_first_meter">This is the label for the first meter</label>
             <meter id="my_first_meter" min="0" max="20" name="meter_no_one" value="4">This is 4 out of 20 </meter><br>
-            <p> Now I will make a second meter with more lines in it! <br> Can I also make a meter here?</p>
+            <p> Now I will make a second meter with more lines in it! <br> Can I also make a meter after the end of this paragraph?</p>
             <label for="my_second_meter">This is the label for the second meter</label>
             <meter id="my_second_meter" min="0" max="20" name="meter_no_two" value="12">This is 12 out of 20 </meter>
             and directly one more
             <meter id="my_third_meter" min="0" max="20" name="meter_no_three" value="8">This is 8 out of 20 </meter> <br>
             <meter min="0" max="20" value="13">This is 13 out of 20 </meter> 
-            <meter min="0" max="20" value="7">This is 7 out of 20 </meter> 
-         </section> 
+            <meter min="0" max="20" value="7">This is 7 out of 20 </meter> <hr>
+            Alright so let's say I want to show the current process of my self-written homepage. For this, I would like to add progress instead of meter. <br>
+            So let's go to the next subsection
+          </section>
+          <!-- This section is about the progress-tag-->
+          <section> 
+            <h4> Subsection 3.3 : How to use the tag: progress </h4>
+            <p> So here is now the overview if my current progress of the self-written webpage </p>
+              <label for="progress1">Added all pages.</label>
+              <progress id="progress1" value="84" max="100"> 84% </progress> <br>
+              <label for="progress2">Made a user log-in form.</label>
+              <progress id="progress2" value="0" max="100"> 0% </progress> <br>
+              <label for="progress3">Coding in html5.</label>
+              <progress id="progress3" value="98" max="100"> 98% </progress> <br>
+          </section> 
    </section>
  </body>
   
