@@ -41,16 +41,21 @@
           <p> Now I will make a button </p>
           <button id="my_first_button" width="5px" height="3px" name="button_no_one" value="click">click me!
           </button>
-           <p> Now I will make a second button! </p>
-           <container id="first_container" width="18px" height="13px" name="container_no_one" value="container_value">
-             So now I should be inside the container. <br> Can I also make a button here?
-            <button id="my_second_button" width="5px" height="3px" name="button_no_two" value="click2">click me 2!
-            </button>
-             <header> This is the header of the container </header>
-           </container>
+          <p> Now I will make a second button! <br> Can I also make a button here? 
+            <button id="my_second_button" width="6px" height="4px" name="button_no_two" value="click2">click me 2!
+            </button></p>
+          </section> 
+          <section> 
+            <h4> Subsection 3.2 : How to use the tag: meter </h4>
+            <p> Now I will make a meter </p>
+            <meter id="my_first_meter" width="5px" height="3px" name="meter_no_one" value="watch">This is the meter
+            </meter>
+            <p> Now I will make a second meter with more lines in it! <br> Can I also make a meter here? 
+            <meter id="my_second_meter" width="10px" height="6px" name="meter_no_two" value="watch2">Meter 2!
+            </meter></p>
          </section> 
-    </section>
-  </body>
+   </section>
+ </body>
   
   <aside>
     <p>Where does the aside paragraph end up at?</p>
