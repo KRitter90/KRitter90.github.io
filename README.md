@@ -79,17 +79,65 @@
      <h3> Step 1: Sign-in form </h3>
      <!-- add here the form -->
       <form action="/action_page.php" method="get">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
+        <label for="user_or_e-mail">user name | e-mail:</label>
+        <input type="text" id="user" name="user" value="enter user name or e-mail..."><br><br>
         <label for="pw">Password:</label>
-        <input type="password" id="pw" name="pw"><br><br>
+        <input type="password" id="pw" name="pw" value="enter your password"><br><br>
         <input type="submit" value="Submit"><br>
         Not a member yet?
         <button id="button_form" width="20" height="12" name="button_form">register</button><br>
         (C) 2020 Ritter90. 
-      </form> 
+      </form>
+      <h3> Step 2: Registration form </h3>
+       <form action="/action_page.php" method="get"><hr>
+        <!-- Name of the user -->
+        Enter your name here:<br>
+        <input type="text" id="fname" name="fname" value="First Name" required>
+        <input type="text" id="lname" name="lname" value="Last Name" required><br><br>
+        <!-- Address -->
+        Enter your address here:<br>
+          <!-- Street -->
+          <input type="text" id="street_1" name="street_1" value="street name" required><br>
+          <input type="number" id="street_2" name="street_2" value="house number" required><br>
+          <input type="text" id="street_3" name="street_3" value="..."><br><br>
+          <input type="number" id="street_4" name="street_4" value="post code" min="4" max="5" required><br><br>
+          <!-- City -->
+          <label for="city">Choose your City from the list:</label><br>
+          <input list="cities" name="city" id="city" required>
+            <datalist id="cities">
+              <option value="Copenhagen">
+              <option value="Aarhus">
+              <option value="Odense">
+              <option value="Aalborg">
+              <option value="Esbjerg">
+              <option value="Randers">
+              <option value="Kolding">
+              <option value="Horsens">
+              <option value="Vejle">
+            </datalist> 
+          <!-- Country -->
+          <label for="country">Country:</label><br>
+          <input type="text" id="country" name="country" value="Denmark"><br><br>
+        <!-- Contact Details -->  
+         <label for="e-mail">Enter your Email:</label><br>
+         <input type="email" id="country" name="country" value="Denmark"><br><br>
+        <!-- Birthday -->
+         <label for="birthday">Birthday:</label>
+         <input type="date" id="birthday" name="birthday"> <hr>
+         How do you want to contribute to the free plant trading community?
+        <!-- Add some check boxes here -->
+          <input type="checkbox" id="user_role1" name="user_role1">
+          <label for="user_role1"> plant trader </label><br>
+          <input type="checkbox" id="user_role2" name="user_role2">
+          <label for="user_role2"> plant sitter </label><br>
+          <input type="checkbox" id="user_role3" name="user_role3">
+          <label for="user_role3"> host for events</label><br><br>
+        <!-- Submit -->
+        <input type="submit" value="Submit">  <input type="reset"><hr>
+        Go back to log-in?
+        <button id="button_reg_log-in" width="20" height="12" name="button_reg_log-in">log-in</button><br>
+        (C) 2020 Ritter90. 
+      </form>    
    </section>
  </body>
  <hr>
