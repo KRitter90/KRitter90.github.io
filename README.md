@@ -19,7 +19,7 @@
       <h2> Inside the second section, I should write again a header: h2 </h2>
       <p> Here, I will also add a paragraph. So why am I doing all of this?
         There are so many ways to learn new things for free.
-        I think that is super fun.
+        I think that is super fun. Here I will break the line:
       <br> When breaking a line, no ending tag is needed. It works just like this. 
         So Let's say I want to write even more and make the reader put some extra focus on the next line. What will happen if I add a "hr"?
       <hr> The hr also does not require any ending tag. So what is the difference between "br" and "hr"? 
