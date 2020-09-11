@@ -17,13 +17,13 @@
     </section>
     <section>
       <h2> Section 2 </h2>
-      <p> Here, I will also add a paragraph. So why am I doing all of this?
+      Here, I will also add a paragraph. So why am I doing all of this?
         There are so many ways to learn new things for free.
         I think that is super fun. Here I will break the line:
       <br> When breaking a line, no ending tag is needed. It works just like this. 
         So Let's say I want to write even more and make the reader put some extra focus on the next line. What will happen if I add a "hr"?
       <hr> The hr also does not require any ending tag. So what is the difference between "br" and "hr"? 
-      So maybe, let's just end this paragraph for now.</p>
+      So maybe, let's just end this paragraph for now.
         <section>
           <h4> Subsection 2.1 </h4>
             <p> So this is how to write a nice looking subsection. No containers or pictures needed - it actually works with simple text formatting tips. I am very glad that I just found out and can now try more how to use them accurately. I guess less is sometimes more. </p> 
@@ -39,10 +39,10 @@
          <section> 
           <h4> Subsection 3.1 : How to use the tag: button </h4>
           <p> Now I will make a button </p>
-          <button id="my_first_button" width="5px" height="3px" name="button_no_one" value="click">click me!
+          <button id="my_first_button" name="button_no_one" value="click">click me!
           </button>
           <p> Now I will make a second button! <br> Can I also make a button here? 
-            <button id="my_second_button" width="6px" height="4px" name="button_no_two" value="click2">click me 2!
+            <button id="my_second_button" name="button_no_two" value="click2">click me 2!
             </button></p>
           </section> 
       <!-- This section is about the meter-tag-->
@@ -50,12 +50,12 @@
             <h4> Subsection 3.2 : How to use the tag: meter </h4>
             <p> Now I will make a meter </p>
             <label for="my_first_meter">This is the label for the first meter</label>
-            <meter id="my_first_meter" min="0" max="20" name="meter_no_one" value="4">This is 4 out of 20 </meter><br>
+            <meter id="my_first_meter" min="0" max="20" value="4">This is 4 out of 20 </meter><br>
             <p> Now I will make a second meter with more lines in it! <br> Can I also make a meter after the end of this paragraph?</p>
             <label for="my_second_meter">This is the label for the second meter</label>
-            <meter id="my_second_meter" min="0" max="20" name="meter_no_two" value="12">This is 12 out of 20 </meter>
+            <meter id="my_second_meter" min="0" max="20" value="12">This is 12 out of 20 </meter>
             and directly one more
-            <meter id="my_third_meter" min="0" max="20" name="meter_no_three" value="8">This is 8 out of 20 </meter> <br>
+            <meter id="my_third_meter" min="0" max="20" value="8">This is 8 out of 20 </meter> <br>
             <meter min="0" max="20" value="13">This is 13 out of 20 </meter> 
             <meter min="0" max="20" value="7">This is 7 out of 20 </meter> <hr>
             Alright so let's say I want to show the current process of my self-written homepage. For this, I would like to add progress instead of meter. <br>
@@ -79,13 +79,13 @@
      <h3> Step 1: Sign-in form </h3>
      <!-- add here the form -->
       <form action="/action_page.php" method="get">
-        <label for="user_or_e-mail">user name | e-mail:</label>
-        <input type="text" id="user" name="user" value="enter user name or e-mail..."><br><br>
-        <label for="pw">Password:</label>
+        <label for="user_or_e-mail">user name | e-mail:</label><br>
+        <input type="text" id="user_or_e-mail" name="user" value="enter user name or e-mail..."><br><br>
+        <label for="pw">Password:</label><br>
         <input type="password" id="pw" name="pw" value="enter your password"><br><br>
         <input type="submit" value="Submit"><br>
         Not a member yet?
-        <button id="button_form" width="20" height="12" name="button_form">register</button><br>
+        <button id="button_form" name="button_form">register</button><br>
         (C) 2020 Ritter90. 
       </form>
       <h3> Step 2: Registration form </h3>
@@ -98,9 +98,9 @@
         Enter your address here:<br>
           <!-- Street -->
           <input type="text" id="street_1" name="street_1" value="street name" required><br>
-          <input type="number" id="street_2" name="street_2" value="house number" required><br>
+          <input type="text" id="street_2" name="street_2" value="house number" {1-3}[0-9] required><br>
           <input type="text" id="street_3" name="street_3" value="..."><br><br>
-          <input type="number" id="street_4" name="street_4" value="post code" min="4" max="5" required><br><br>
+          <input type="text" id="street_4" name="street_4" value="post code" {4-5}[0-9] required><br><br>
           <!-- City -->
           <label for="city">Choose your City from the list:</label><br>
           <input list="cities" name="city" id="city" required>
@@ -120,7 +120,7 @@
           <input type="text" id="country" name="country" value="Denmark"><br><br>
         <!-- Contact Details -->  
          <label for="e-mail">Enter your Email:</label><br>
-         <input type="email" id="country" name="country" value="Denmark"><br><br>
+         <input type="email" id="email" name="email" value="info@ritterplants.com"><br><br>
         <!-- Birthday -->
          <label for="birthday">Birthday:</label>
          <input type="date" id="birthday" name="birthday"> <hr>
@@ -135,13 +135,11 @@
         <!-- Submit -->
         <input type="submit" value="Submit">  <input type="reset"><hr>
         Go back to log-in?
-        <button id="button_reg_log-in" width="20" height="12" name="button_reg_log-in">log-in</button><br>
+        <button id="button_reg_log-in" name="button_reg_log-in">log-in</button><br>
         (C) 2020 Ritter90. 
       </form>    
    </section>
- </body>
- <hr>
-  
+ </body>  
   <aside>
     <p>Where does the aside paragraph end up at?</p>
   </aside>
