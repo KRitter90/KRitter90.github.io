@@ -8,7 +8,7 @@
   <body>
     <p>Here I will try to make my first log in form using html coding. </p>
     <section>
-      <h2> Inside the section, I should write a header: h2 </h2>
+      <h2> Section 1 </h2>
       <ol>
         <li> learn different tags to get familiar with listing options </li>
         <li> coding an ordered list could be helpful</li>
@@ -16,7 +16,7 @@
       </ol>
     </section>
     <section>
-      <h2> Inside the second section, I should write again a header: h2 </h2>
+      <h2> Section 2 </h2>
       <p> Here, I will also add a paragraph. So why am I doing all of this?
         There are so many ways to learn new things for free.
         I think that is super fun. Here I will break the line:
@@ -24,7 +24,17 @@
         So Let's say I want to write even more and make the reader put some extra focus on the next line. What will happen if I add a "hr"?
       <hr> The hr also does not require any ending tag. So what is the difference between "br" and "hr"? 
       So maybe, let's just end this paragraph for now.</p>
-      <h4> And how does it look like now, if I write again a header: h4?</h4>
+        <section>
+          <h4> Subsection 2.1 </h4>
+            <p> So this is how to write a nice looking subsection. No containers or pictures needed - it actually works with simple text formatting tips. I am very glad that I just found out and can now try more how to use them accurately. I guess less is sometimes more. </p> 
+        </section>
+        <section>
+          <h4> Subsection 2.2 </h4>
+            <p> Some more text in the next sub section. I could easily call this a Chapter... </p> 
+        </section>    
+    </section>
+    <section> 
+      <h2> Section 3: How to write a log-in form in html </h2>
     </section>
   </body>
   <aside>
