@@ -48,11 +48,15 @@
           <section> 
             <h4> Subsection 3.2 : How to use the tag: meter </h4>
             <p> Now I will make a meter </p>
-            <meter id="my_first_meter" width="5px" height="3px" name="meter_no_one" value="watch">This is the meter
-            </meter>
-            <p> Now I will make a second meter with more lines in it! <br> Can I also make a meter here? 
-            <meter id="my_second_meter" width="10px" height="6px" name="meter_no_two" value="watch2">Meter 2!
-            </meter></p>
+            <label for="my_first_meter">This is the label for the first meter</label>
+            <meter id="my_first_meter" min="0" max="20" name="meter_no_one" value="4">This is 4 out of 20 </meter><br>
+            <p> Now I will make a second meter with more lines in it! <br> Can I also make a meter here?</p>
+            <label for="my_second_meter">This is the label for the second meter</label>
+            <meter id="my_second_meter" min="0" max="20" name="meter_no_two" value="12">This is 12 out of 20 </meter>
+            and directly one more
+            <meter id="my_third_meter" min="0" max="20" name="meter_no_three" value="8">This is 8 out of 20 </meter> <br>
+            <meter min="0" max="20" value="13">This is 13 out of 20 </meter> 
+            <meter min="0" max="20" value="7">This is 7 out of 20 </meter> 
          </section> 
    </section>
  </body>
