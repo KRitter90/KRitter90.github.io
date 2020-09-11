@@ -30,5 +30,8 @@
   <aside>
     <p>Where does the aside paragraph end up at?</p>
   </aside>
+  <footer> This is my footer. Will it be at the end of the webpage? <hr>
+  </footer>
+  
 </html>
 
