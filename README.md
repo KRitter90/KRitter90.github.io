@@ -70,10 +70,29 @@
               <label for="progress2">Made a user log-in form.</label>
               <progress id="progress2" value="0" max="100"> 0% </progress> <br>
               <label for="progress3">Coding in html5.</label>
-              <progress id="progress3" value="98" max="100"> 98% </progress> <br>
+              <progress id="progress3" value="98" max="100"> 98% </progress> <br><hr>
           </section> 
    </section>
+   <section>
+     <h2> The final step to make users sign-in or register </h2>
+     <p> Alright. So here is now the few steps on how to build the log-in form how I want it to be on the web-page. <br></p>
+     <h3> Step 1: Sign-in form </h3>
+     <!-- add here the form -->
+      <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="pw">Password:</label>
+        <input type="password" id="pw" name="pw"><br><br>
+        <input type="submit" value="Submit"><br>
+        Not a member yet?
+        <button id="button_form" width="20" height="12" name="button_form">register</button><br>
+        (C) 2020 Ritter90. 
+      </form> 
+   </section>
  </body>
+ <hr>
   
   <aside>
     <p>Where does the aside paragraph end up at?</p>
