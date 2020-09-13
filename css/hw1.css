@@ -6,33 +6,34 @@
 (3) sections - change background color
 (4) links - change background and font color 
 (5) images - remove from the page*/ 
-
-/* header */
-header {
-  background: #719F1E;
-};
-/* h1 */
-h1 {
-  color: #F7E2C7; 
-  align: center; 
-  font-variant: large;
-};
-/* h2 */
-h2 {
-  color: #F7E2C7; 
-  align: left; 
-  font-variant: large;
-};
-/* section*/
-section {
-  background: #816C5B;
-};
-/* links*/
-links {
-  background: #4A7212;
-  color: #104210;
-};
-/* images*/
-img {
-  visibility: hidden;
+body {
+    /* header */
+    header {
+      background: #719F1E;
+    };
+    /* h1 */
+    h1 {
+      color: #F7E2C7; 
+      align: center; 
+      font-variant: large;
+    };
+    /* h2 */
+    h2 {
+      color: #F7E2C7; 
+      align: left; 
+      font-variant: large;
+    };
+    /* section*/
+    section {
+      background: #816C5B;
+    };
+    /* links*/
+    links {
+      background: #4A7212;
+      color: #104210;
+    };
+    /* images*/
+    img {
+      visibility: hidden;
+    };
 };
