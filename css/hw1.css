@@ -9,29 +9,29 @@
     /* header */
 header {
   background: #719F1E;
-};
+}
 /* h1 */
 h1 {
   color: #F7E2C7; 
-  align: center; 
-  font-variant: large;
-};
+  text-align: center; 
+  font-variant-caps: all-petite-caps;
+}
 /* h2 */
 h2 {
   color: #F7E2C7; 
-  align: left; 
-  font-variant: large;
-};
+  text-align: left; 
+  font-variant-caps: all-petite-caps;
+}
 /* section*/
 section {
   background: #816C5B;
-};
+}
 /* links*/
 links {
   background: #4A7212;
   color: #104210;
-};
+}
 /* images*/
 img {
   display: none; /* visibility: hidden will leave all the area needed, but shows nothing*/
-};
+}
