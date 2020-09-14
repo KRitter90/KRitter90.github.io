@@ -10,7 +10,7 @@
 body {
   padding: 10px;
   margin: 5px;
-  font-size: 80%;
+  font-size: 90%;
 }
 header {
   background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
@@ -27,6 +27,7 @@ nav {
   color: #F7E2C7;
   width: 80%;
   height: 5px;
+  float: 
 }
 /* only stlye links inside nav */
 nav a{
@@ -82,16 +83,17 @@ img {
 }
 img.left {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin:0 auto;
   width: 75%;
-  padding: 0px 10px;
+  padding: 10px 0px;
+  height: 200px;
+  clear: left;
 }
 /* classes */
 .left {
   display: block;
   width: 25%;
-  padding: 5px;
+  padding: 10px 0px;
   margin: 2px;
   background-color: #B99C6B;
   float: left;
