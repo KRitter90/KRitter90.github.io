@@ -14,7 +14,9 @@ body {
 }
 header {
   background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
-  height: 300px;
+  height: 500px;
+  padding: 20px;
+  width: 100%;
   display: inline-block;
 }
 
@@ -83,16 +85,16 @@ img.left {
 }
 /* classes */
 .left {
-  display: inline-block;
-  width: 49%;
+  display: block;
+  width: 34%;
   padding: 5px;
   margin: 2px;
   background-color: #B99C6B;
 }
 
 .right {
-  display: inline-block;
-  width: 49%;
+  display: block;
+  width: 64%;
   padding: 5px;
   margin: 2px;
 }
