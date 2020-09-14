@@ -17,6 +17,7 @@ header {
   height: 300px;
   width: 100%;
   display: inline-block;
+  padding: 5%;
 }
 
 /* nav */
@@ -31,8 +32,11 @@ nav {
 nav a{
   width: 150px;
   display: inline-block;
-  position: relative
+  position: relative;
   position: -webkit-sticky; /* Safari */
+  position: -moz-sticky; /* firefox */
+  position: -ms-sticky; /* Safari */
+  position: -o-sticky; /* Safari */
   position: sticky;
   top: 0;
   background: #FFFFFF;
@@ -85,15 +89,7 @@ img {
   width: 200px;
   border: solid;
 }
-img.left {
-  clear: both;
-  display: block;
-  margin:10 auto;
-  width: 75%;
-  padding: 25px 5px;
-  height: 200px;
-  position: absolute;
-}
+
 /* classes */
 .left {
   display: inline-block;
@@ -116,4 +112,15 @@ img.left {
   border: solid;
   background-color: #4A7212; /* Kelly green */
   color: #FFFFFF; /* white */ 
+}
+
+img.left {
+  clear: both;
+  display: block;
+  margin:0 auto;
+  width: 75%;
+  padding: 25px 5px;
+  height: 200px;
+  position: absolute;
+  margin-top: 10px;
 }
