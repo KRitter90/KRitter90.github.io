@@ -22,7 +22,7 @@ nav a{
   width: 200px;
   display: inline-block;
   background: #FFFFFF;
-  border:solid;
+  text-align: center;
 
 }
 nav a:hover{
@@ -61,5 +61,5 @@ img {
 }
 
 .active {
-  background: #102410;
+  border: solid;
 }
