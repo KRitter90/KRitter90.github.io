@@ -19,13 +19,13 @@ nav {
 }
 /* only stlye links inside nav */
 nav a{
-  width: 50px;
+  width: 200px;
   display: inline-block;
   background: #FFFFFF;
   border:solid;
 
 }
-nav a.hover{
+nav a:hover{
   color: #FFFFFF;
   background: #000000;
   border:none;
