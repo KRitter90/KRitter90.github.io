@@ -64,7 +64,7 @@ a {
 /* images*/
 img {
   display: block; /* visibility: hidden will leave all the area needed, but shows nothing*/
-  width=200px;
+  width: 200px;
   border: solid;
 }
 img.left {
