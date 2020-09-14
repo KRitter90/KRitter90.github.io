@@ -25,9 +25,8 @@ nav {
   background: #D5CE58; /* yellow green */
   font-size: 120%; 
   color: #F7E2C7;
-  width: 80%;
+  width: 100%;
   height: 5px;
-  float: 
 }
 /* only stlye links inside nav */
 nav a{
@@ -35,8 +34,8 @@ nav a{
   display: inline-block;
   background: #FFFFFF;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 10px 20px;
+  padding: 10px 20px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   -ms-border-radius: 9px;
@@ -56,6 +55,7 @@ nav a:hover{
 h1 {
   font-size: 200%; 
   color: #816C5B; /* Earth brown */
+  background-color: #FFFFFF;
   text-align: center; 
   text-transfer: uppercase;
 }
