@@ -13,7 +13,7 @@ body {
   font-size: 90%;
 }
 header {
-  background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
+  background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center opacity: 0.5; 
   height: 300px;
   width: 100%;
   display: inline-block;
