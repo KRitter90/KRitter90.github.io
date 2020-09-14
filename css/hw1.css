@@ -92,6 +92,7 @@ img.left {
   padding: 5px;
   margin: 2px;
   background-color: #B99C6B;
+  float: left;
 }
 
 .right {
@@ -99,6 +100,7 @@ img.left {
   width: 70%;
   padding: 5px;
   margin: 2px;
+  float: right;
 }
 
 .active {
