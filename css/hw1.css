@@ -13,7 +13,7 @@ body {
   font-size=150%
 }
 header {
-  background: #719F1E url("/css/flywheel.jpg") no-repeat fixed center; /* lime green */
+  background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
 }
 
 /* nav */
@@ -65,6 +65,14 @@ a {
 img {
   display: block; /* visibility: hidden will leave all the area needed, but shows nothing*/
   width=200px;
+  border: solid;
+}
+img.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 0px 10px;
 }
 /* classes */
 .left {
