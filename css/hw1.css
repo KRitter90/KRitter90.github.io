@@ -37,11 +37,11 @@ h2 {
 section {
   background: #816C5B;
 }
-/* links*/
+/* links
 a {
   background: #4A7212;
   color: #104210;
-}
+}*/
 /* images*/
 img {
   display: none; /* visibility: hidden will leave all the area needed, but shows nothing*/
