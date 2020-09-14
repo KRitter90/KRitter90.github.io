@@ -10,6 +10,17 @@
 header {
   background: #719F1E;
 }
+
+/* nav */
+nav {
+  font-size: 150%; 
+}
+/* only stlye links inside nav */
+nav a{
+  width: 20px;
+  display: inline-block;
+  background: #FFFFFF;
+}
 /* h1 */
 h1 {
   color: #F7E2C7; 
