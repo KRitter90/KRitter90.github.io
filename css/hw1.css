@@ -82,12 +82,13 @@ img {
   border: solid;
 }
 img.left {
+  clear: both;
   display: block;
   margin:0 auto;
   width: 75%;
   padding: 25px 5px;
   height: 200px;
-  clear: both;
+  position: absolute;
 }
 /* classes */
 .left {
