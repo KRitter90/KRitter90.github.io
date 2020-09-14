@@ -46,3 +46,7 @@ a {
 img {
   display: none; /* visibility: hidden will leave all the area needed, but shows nothing*/
 }
+
+.active {
+  border: solid
+}
