@@ -9,44 +9,57 @@
     /* header */
 header {
   background: #719F1E;
+  border: solid;
 }
 
 /* nav */
 nav {
   font-size: 70%; 
+  border:solid;
 }
 /* only stlye links inside nav */
 nav a{
   width: 50px;
   display: inline-block;
   background: #FFFFFF;
+  border:solid;
+
+}
+nav a.hover{
+  color: #FFFFFF;
+  background: #000000;
+  border:none;
 }
 /* h1 */
 h1 {
   color: #F7E2C7; 
   text-align: center; 
   font-variant-caps: all-petite-caps;
+  border:solid;
 }
 /* h2 */
 h2 {
   color: #F7E2C7; 
   text-align: left; 
   font-variant-caps: all-petite-caps;
+  border:solid;
 }
 /* section*/
 section {
   background: #816C5B;
+  border:solid;
 }
-/* links
+/* links */
 a {
   background: #4A7212;
   color: #104210;
-}*/
+  border:solid;
+}
 /* images*/
 img {
   display: none; /* visibility: hidden will leave all the area needed, but shows nothing*/
 }
 
 .active {
-  border: solid;
+  background: #102410;
 }
