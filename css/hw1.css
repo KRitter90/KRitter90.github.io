@@ -14,6 +14,8 @@ body {
 }
 header {
   background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
+  height: 100px;
+  font-color: #000000;
 }
 
 /* nav */
@@ -31,12 +33,14 @@ nav a{
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
+  border-color: #FFFFFF;
   text-decoration: none;  
 }
 nav a:hover{
   color: #FFFFFF;
   background: #000000;
-  border:#000000;
+  border: solid;
+  border-color: #000000;
 }
 /* h1 */
 h1 {
@@ -76,16 +80,16 @@ img.left {
 /* classes */
 .left {
   display: inline-block;
-  width: 40%;
+  width: 28%;
   padding: 5px;
   margin: 2px;
-  float: left;
+  float: center;
   background-color: #B99C6B;
 }
 
 .right {
   display: inline-block;
-  width: 40%;
+  width: 68%;
   padding: 5px;
   margin: 2px;
   float: right;
