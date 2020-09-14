@@ -33,7 +33,9 @@ nav a{
   text-align: center;
   margin: 10px;
   padding: 10px;
-  border-radius: 15px 50px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
   border-color: #FFFFFF;
   text-decoration: none;  
 }
@@ -48,13 +50,13 @@ h1 {
   font-size: 200%; 
   color: #816C5B; /* Earth brown */
   text-align: center; 
-  font-variant-caps: small-caps;
+  text-transfer: uppercase;
 }
 /* h2 */
 h2 {
   color: #816C5B; /* Earth brown */
   text-align: left; 
-  font-variant-caps: small-caps;
+  text-transfer: uppercase;
 }
 /* section*/
 section {
@@ -100,4 +102,3 @@ img.left {
   background-color: #4A7212; /* Kelly green */
   color: #FFFFFF; /* white */ 
 }
-
