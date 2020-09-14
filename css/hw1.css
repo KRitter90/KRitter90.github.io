@@ -15,7 +15,6 @@ body {
 header {
   background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
   height: 100px;
-  font-color: #000000;
 }
 
 /* nav */
@@ -32,7 +31,7 @@ nav a{
   text-align: center;
   margin: 10px;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 15px 50px;
   border-color: #FFFFFF;
   text-decoration: none;  
 }
@@ -47,13 +46,13 @@ h1 {
   font-size: 200%; 
   color: #816C5B; /* Earth brown */
   text-align: center; 
-  font-variant-caps: all-petite-caps;
+  font-variant-caps: small-caps;
 }
 /* h2 */
 h2 {
   color: #816C5B; /* Earth brown */
   text-align: left; 
-  font-variant-caps: all-petite-caps;
+  font-variant-caps: small-caps;
 }
 /* section*/
 section {
@@ -83,7 +82,6 @@ img.left {
   width: 28%;
   padding: 5px;
   margin: 2px;
-  float: center;
   background-color: #B99C6B;
 }
 
@@ -92,7 +90,6 @@ img.left {
   width: 68%;
   padding: 5px;
   margin: 2px;
-  float: right;
 }
 
 .active {
