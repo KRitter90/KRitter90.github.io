@@ -13,7 +13,7 @@ body {
   font-size: 90%;
 }
 header {
-  background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center opacity: 0.5; 
+  background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
   height: 300px;
   width: 100%;
   display: inline-block;
@@ -54,7 +54,7 @@ nav a:hover{
 h1 {
   font-size: 200%; 
   color: #816C5B; /* Earth brown */
-  background-color: #FFFFFF;
+  background-color: #7FFFFFFF;
   text-align: center; 
   text-transfer: uppercase;
 }
