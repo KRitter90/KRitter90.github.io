@@ -39,7 +39,10 @@ nav a{
   padding: 10px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
-  border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
   border-color: #FFFFFF;
   text-decoration: none;  
 }
