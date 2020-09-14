@@ -54,9 +54,10 @@ nav a:hover{
 h1 {
   font-size: 200%; 
   color: #816C5B; /* Earth brown */
-  background-color: #7FFFFFFF;
+  background-color: #FFFFFF;
   text-align: center; 
   text-transfer: uppercase;
+  opacity: 0.5;
 }
 /* h2 */
 h2 {
