@@ -10,7 +10,7 @@
 body {
   padding: 10px;
   margin: 5px;
-  font-size=150%
+  font-size: 150%;
 }
 header {
   background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
@@ -31,13 +31,12 @@ nav a{
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
-  height: 50px;
   text-decoration: none;  
 }
 nav a:hover{
   color: #FFFFFF;
   background: #000000;
-  border:none;
+  border:#000000;
 }
 /* h1 */
 h1 {
