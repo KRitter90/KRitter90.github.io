@@ -13,11 +13,11 @@ header {
 
 /* nav */
 nav {
-  font-size: 150%; 
+  font-size: 70%; 
 }
 /* only stlye links inside nav */
 nav a{
-  width: 20px;
+  width: 50px;
   display: inline-block;
   background: #FFFFFF;
 }
@@ -48,5 +48,5 @@ img {
 }
 
 .active {
-  border: solid
+  border: solid;
 }
