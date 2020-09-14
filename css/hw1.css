@@ -1,17 +1,19 @@
-/* This is a css introduction
-(1) header - change background color
-(2) headings h1-h2 - change font color
-                   - headings in all capital letters
-             h1    - center the text
-(3) sections - change background color
-(4) links - change background and font color 
-(5) images - remove from the page*/ 
-    /* header */
+/* This is a css intro
+(0) body - padding, margin, size of text
+(1) header - change background color, image in folder
+(2) headings h1 - change font color
+                - font size
+(3) nav_a - spaced apart, round borders, remove underlines
+(4) action class - change background and font color 
+(5) left/right class - side by side, left: change background-color
+(6) images - border, center within class .left, spacing on top and bottom */ 
+/* body */
 body {
   padding: 10px;
   margin: 5px;
   font-size: 90%;
 }
+/* header */
 header {
   background: #F7E2C7 /* champagne */ url("../images/flywheel.jpg") no-repeat fixed center; 
   height: 300px;
@@ -19,7 +21,6 @@ header {
   display: inline-block;
   padding: 5%;
 }
-
 /* nav */
 nav {
   display: inline-block;
